@@ -5,7 +5,6 @@ heartbeat.monitors:
     - http://elasticsearch:9200
     - http://kibana:5601
     - http://app:8000
-    - https://apiwsttrest.omnilink.com.br/healthz
 
 - type: icmp
   schedule: '@every 5s'
